@@ -4,7 +4,7 @@ import Routes from './routes';
 
 import GlobalStyle from './styles/global';
 
-export function App() {
+export default function App() {
   return (
     <>
       <GlobalStyle />
