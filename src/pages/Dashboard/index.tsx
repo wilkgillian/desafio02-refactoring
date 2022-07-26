@@ -7,6 +7,9 @@ import ModalAddFood from '../../components/ModalAddFood';
 import ModalEditFood from '../../components/ModalEditFood';
 import { FoodsContainer } from './styles';
 
+interface DashboardProps{
+ food: string;
+}
 class Dashboard extends Component {
   constructor(props) {
     super(props);
